@@ -6,7 +6,24 @@ cat > README.md << 'EOF'
 يدعم: رسائل نصية، صور، مقاطع صوتية.
 
 ## طريقة التشغيل
+### طريقة التشغيل على Termux
+### طريقة التشغيل على Termux
+### طريقة التشغيل على Tطermux
 
+```bash
+pkg update && pkg upgrade -y
+pkg install nodejs git -y
+git clone https://github.com/alzymasd9-s/my-chat-app.git
+cd my-chat-app
+npm install
+npm start
+```bash
+pkg update && pkg upgrade -y
+pkg install nodejs git -y
+git clone https://github.com/alzymasd9-s/my-chat-app.git
+cd my-chat-app
+npm install
+npm start
 ```bash
 pkg update && pkg upgrade -y
 pkg install nodejs git -y
