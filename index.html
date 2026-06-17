@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Discord Pro</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="app">
+    <div class="sidebar">
+        <h2>Servers</h2>
+        <div class="server"># General</div>
+    </div>
+
+    <div class="chat">
+        <div id="messages"></div>
+
+        <div class="input">
+            <input id="user" placeholder="User name"/>
+            <input id="message" placeholder="Type message..."/>
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

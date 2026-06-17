@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #2c2f33;
+    color: white;
+}
+
+.app {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 200px;
+    background: #23272a;
+    padding: 10px;
+}
+
+.server {
+    padding: 10px;
+    background: #2c2f33;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.chat {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 5px;
+    background: #40444b;
+    border-radius: 5px;
+}
+
+.input {
+    display: flex;
+    padding: 10px;
+    background: #23272a;
+}
+
+input {
+    flex: 1;
+    margin-right: 5px;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 12px;
+}
